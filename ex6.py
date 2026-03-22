@@ -11,7 +11,7 @@ for path in root_dir.glob('**/*.txt'):
 
         # Cria um novo caminho alterando apenas a extensão do arquivo
         # Ex: arquivo.txt → arquivo.csv
-        # ⚠️ Não altera o conteúdo, apenas o nome/extensão
+        # Não altera o conteúdo, apenas o nome/extensão
         new_filepath = path.with_suffix('.csv')
 
         # Renomeia o arquivo (na prática, troca a extensão)
